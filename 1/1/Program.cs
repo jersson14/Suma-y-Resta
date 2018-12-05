@@ -9,12 +9,14 @@ namespace _1
     {
         static void Main(string[] args)
         {
-            int numer1 = 14;
+
+            Console.WriteLine("SUMA DE DOS NUMEROS");
+            int numero1 = 14;
             int numero2 = 12;
 
             int total;
 
-            total = numer1 + numero2;
+            total = numero1 + numero2;
             Console.WriteLine("el resultado es: " + total);
             Console.ReadKey();
         }
